@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush Jain | IT Service Manager Resume</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f1f5f9;
+            color: #0f172a;
+        }
+        /* ATS-Friendly List Style: High contrast and clear spacing */
+        .custom-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        .custom-list li {
+            position: relative;
+            padding-left: 1.75rem;
+            margin-bottom: 0.6rem;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+        .custom-list li::before {
+            content: "\f105"; /* FontAwesome angle right */
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            position: absolute;
+            left: 0;
+            top: 4px;
+            color: #2563eb;
+            font-size: 0.85rem;
+        }
+        /* Experience Timeline Design */
+        .timeline-container {
+            position: relative;
+            padding-left: 2rem;
+        }
+        .timeline-line::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 7px;
+            width: 2px;
+            background: #e2e8f0;
+        }
+        .timeline-dot {
+            position: absolute;
+            left: -28px;
+            top: 8px;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background: #2563eb;
+            border: 3px solid #fff;
+            z-index: 10;
+            box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.15);
+        }
+        @media print {
+            .no-print { display: none; }
+            body { background: white; }
+            .shadow-xl { shadow: none; }
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-blue-200">
+
+    <!-- Primary Header -->
+    <header class="bg-[#0f172a] text-white pt-12 pb-16 px-6 lg:px-0">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center md:items-start justify-between gap-10">
+                
+                <div class="flex-1 text-center md:text-left">
+                    <div class="inline-block px-3 py-1 bg-blue-600/20 border border-blue-500/30 rounded-full text-blue-400 text-xs font-bold tracking-widest mb-4">
+                        AVAILABLE FOR NEW OPPORTUNITIES
+                    </div>
+                    <h1 class="text-5xl font-extrabold tracking-tight mb-3">Ayush Jain</h1>
+                    <h2 class="text-2xl text-blue-400 font-semibold mb-6">IT Service Manager | ITIL® Certified Professional</h2>
+                    
+                    <div class="flex flex-wrap justify-center md:justify-start gap-y-3 gap-x-6 text-sm text-slate-400 mb-8">
+                        <span class="flex items-center gap-2"><i class="fa-solid fa-envelope text-blue-500"></i> ayushraj.jain@gmail.com</span>
+                        <span class="flex items-center gap-2"><i class="fa-solid fa-phone text-blue-500"></i> +91 9039663919</span>
+                        <a href="https://linkedin.com/in/ayush-jain" target="_blank" class="flex items-center gap-2 hover:text-white transition-colors">
+                            <i class="fa-brands fa-linkedin text-blue-500"></i> linkedin.com/in/ayush-jain
+                        </a>
+                    </div>
+
+                    <div class="flex flex-wrap justify-center md:justify-start gap-4">
+                        <a href="CV_Ayush_Jain.pdf" download class="bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-xl font-bold flex items-center gap-3 transition-all shadow-lg shadow-blue-500/20 active:scale-95">
+                            <i class="fa-solid fa-file-pdf"></i> DOWNLOAD FULL CV
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Profile Image -->
+                <div class="relative">
+                    <div class="w-44 h-44 md:w-52 md:h-52 rounded-[2rem] overflow-hidden border-4 border-slate-800 shadow-2xl bg-slate-800 flex items-center justify-center">
+                        <div class="absolute inset-0 flex items-center justify-center bg-slate-800 z-0">
+                            <i class="fa-solid fa-user-tie text-7xl text-slate-700"></i>
+                        </div>
+                        <img src="profile.jpg" alt="Ayush Jain" class="w-full h-full object-cover relative z-10" onerror="this.style.opacity='0'">
+                    </div>
+                    <div class="absolute -bottom-3 -right-3 bg-blue-600 text-white p-3 rounded-2xl shadow-lg border-4 border-[#0f172a]">
+                        <i class="fa-solid fa-award text-xl"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Professional Summary - ATS Optimized -->
+            <div class="mt-12 bg-slate-800/40 p-8 rounded-3xl border border-slate-700/50 backdrop-blur-md">
+                <h3 class="text-blue-400 font-bold text-sm uppercase tracking-widest mb-4">Professional Summary</h3>
+                <p class="text-slate-200 leading-relaxed text-lg">
+                    Strategic IT Service Desk Manager with <span class="text-white font-bold underline decoration-blue-500 decoration-2 underline-offset-4">10+ years of experience</span> leading technical support operations and fostering high-performance service cultures. Expert in managing the full lifecycle of Incident and Request fulfillment while maintaining a <span class="text-white font-bold">99% SLA compliance rate</span>. Proven track record in overseeing Major Incident bridges, coordinating between technical engineers and business stakeholders to ensure rapid service restoration. Highly proficient in ITIL-aligned process optimization and mentoring cross-functional teams to deliver a seamless end-user experience.
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-6 py-16 grid grid-cols-1 lg:grid-cols-3 gap-12">
+        
+        <!-- Main Column -->
+        <div class="lg:col-span-2 space-y-20">
+            
+            <!-- Experience Section -->
+            <section>
+                <div class="flex items-center gap-4 mb-12">
+                    <div class="h-px flex-1 bg-slate-200"></div>
+                    <h3 class="text-2xl font-black text-slate-900 uppercase tracking-tighter italic">Professional Experience</h3>
+                    <div class="h-px flex-1 bg-slate-200"></div>
+                </div>
+                
+                <div class="timeline-container timeline-line space-y-16">
+                    
+                    <!-- Role 1 -->
+                    <div class="relative">
+                        <div class="timeline-dot"></div>
+                        <div class="flex flex-col sm:flex-row sm:items-baseline justify-between mb-2">
+                            <h4 class="text-2xl font-extrabold text-slate-900">DB Schenker India Pvt. Ltd.</h4>
+                            <span class="text-xs font-black uppercase tracking-widest text-blue-700 bg-blue-50 px-3 py-1 rounded-full">April 2022 — Dec 2025</span>
+                        </div>
+                        <h5 class="text-lg font-bold text-blue-600 mb-5 flex items-center gap-2">
+                            <i class="fa-solid fa-user-gear text-sm"></i> Service Manager
+                        </h5>
+                        <ul class="custom-list text-slate-700">
+                            <li>Directed a high-performing team of <span class="font-bold">28 Service Desk Analysts</span>, consistently achieving a 98% SLA compliance rate while maintaining a 97% CSAT score.</li>
+                            <li>Managed end-to-end lifecycle of service requests and incidents, ensuring resolution within agreed-upon OLA/SLAs.</li>
+                            <li>Implemented <span class="font-bold">ServiceNow automation</span>, reducing monthly ticket volume from 25,000 to 17,000 (32% decrease) and improving response times.</li>
+                            <li>Managed major incident management, ensuring rapid resolution of critical outages impacting business operations.</li>
+                            <li>Chaired monthly executive reviews with management, presenting service delivery metrics and improvement initiatives.</li>
+                            <li>Oversaw vulnerability management, threat detection, and problem management through governance calls.</li>
+                            <li>Spearheaded transition to <span class="font-bold">ITIL v4 standards</span>, maturing Incident, Problem, and Change Management processes to reduce recurring issues by 15%.</li>
+                            <li>Developed and implemented Service Improvement Plans (SIPs) enhancing overall service quality.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Role 2 -->
+                    <div class="relative">
+                        <div class="timeline-dot"></div>
+                        <div class="flex flex-col sm:flex-row sm:items-baseline justify-between mb-2">
+                            <h4 class="text-2xl font-extrabold text-slate-900">Kearney India</h4>
+                            <span class="text-xs font-black uppercase tracking-widest text-slate-500 bg-slate-100 px-3 py-1 rounded-full">Dec 2018 — April 2022</span>
+                        </div>
+                        <h5 class="text-lg font-bold text-blue-600 mb-5 flex items-center gap-2">
+                            <i class="fa-solid fa-user-shield text-sm"></i> Technical Analyst (ITSD Lead)
+                        </h5>
+                        <ul class="custom-list text-slate-700">
+                            <li>Led <span class="font-bold">18-member team</span> managing IT Service Desk operations and user escalations for a global management consulting firm.</li>
+                            <li>Managed major incidents, problem management, and change platform across multiple global locations.</li>
+                            <li>Supervised <span class="font-bold">O365 technical support</span> for 200+ partners, principals, and VPs, ensuring business continuity.</li>
+                            <li>Conducted incident audits, successfully <span class="font-bold">reducing ticket backlogs by 40%</span>.</li>
+                            <li>Administered Active Directory user accounts, groups, and access management based on OUs.</li>
+                            <li>Maintained SLA compliance through proactive monitoring and stakeholder communication during major outages.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Role 3 -->
+                    <div class="relative">
+                        <div class="timeline-dot"></div>
+                        <div class="flex flex-col sm:flex-row sm:items-baseline justify-between mb-2">
+                            <h4 class="text-2xl font-extrabold text-slate-900">Ciena India</h4>
+                            <span class="text-xs font-black uppercase tracking-widest text-slate-500 bg-slate-100 px-3 py-1 rounded-full">Oct 2017 — Dec 2018</span>
+                        </div>
+                        <h5 class="text-lg font-bold text-blue-600 mb-5 flex items-center gap-2">
+                            <i class="fa-solid fa-chart-line text-sm"></i> IT Analyst
+                        </h5>
+                        <ul class="custom-list text-slate-700">
+                            <li>Managed incident and problem processes to restore services quickly while maintaining optimal quality.</li>
+                            <li>Generated proactive problem tickets based on <span class="font-bold">event analysis and trending patterns</span>.</li>
+                            <li>Conducted daily bridge calls with application owners on change requests, severity issues, and tool alerts.</li>
+                            <li>Generated process metrics (KPIs) and performance dashboards for management reporting.</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Major Projects Section -->
+            <section class="bg-white p-8 rounded-3xl shadow-sm border border-slate-200">
+                <h3 class="text-xl font-black text-slate-900 mb-8 uppercase flex items-center gap-3">
+                    <i class="fa-solid fa-diagram-project text-blue-600"></i> Key Technical Projects
+                </h3>
+                <div class="space-y-8">
+                    <div class="group">
+                        <div class="flex items-center justify-between mb-2">
+                            <h4 class="font-bold text-slate-900 text-lg group-hover:text-blue-600 transition-colors">Accelerate2Cloud Migration</h4>
+                            <span class="text-xs font-bold text-blue-600 bg-blue-50 px-2 py-0.5 rounded">Azure Migration</span>
+                        </div>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">Managed multimillion-dollar APAC server migration project: <span class="font-semibold">450+ servers and 180+ applications</span> to Azure cloud. Utilized <span class="font-semibold text-slate-900">Cloudamize</span> for assessment and protocol mapping. Coordinated ASR, WAF, and Oracle RAC migrations ensuring zero rollbacks.</p>
+                    </div>
+                    <div class="h-px bg-slate-100"></div>
+                    <div class="group">
+                        <div class="flex items-center justify-between mb-2">
+                            <h4 class="font-bold text-slate-900 text-lg group-hover:text-blue-600 transition-colors">Meraki & SDWAN Deployment</h4>
+                            <span class="text-xs font-bold text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded">Network Infrastructure</span>
+                        </div>
+                        <p class="text-slate-600 text-sm leading-relaxed">Led migration of 40+ non-critical sites to globally managed Meraki with 24/7 monitoring. Established timelines and coordinated with Network/Finance teams for seamless transitions, generating <span class="font-semibold text-slate-900">€30,000 monthly cost savings</span>.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Sidebar Column -->
+        <div class="space-y-10">
+            
+            <!-- Skills Card -->
+            <section class="bg-slate-900 text-white p-8 rounded-[2.5rem] shadow-2xl relative overflow-hidden">
+                <div class="absolute top-0 right-0 p-4 opacity-10">
+                    <i class="fa-solid fa-microchip text-6xl"></i>
+                </div>
+                <h3 class="text-blue-400 font-black uppercase text-xs tracking-[0.2em] mb-6">Expertise & Stack</h3>
+                <div class="space-y-6">
+                    <div>
+                        <p class="text-slate-400 text-[10px] uppercase font-bold mb-3 tracking-widest">Core Domains</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-white/10 px-3 py-1.5 rounded-lg text-xs font-bold border border-white/5">ITIL v4 Framework</span>
+                            <span class="bg-white/10 px-3 py-1.5 rounded-lg text-xs font-bold border border-white/5">Incident & Problem Mgmt</span>
+                            <span class="bg-white/10 px-3 py-1.5 rounded-lg text-xs font-bold border border-white/5">SLA Management</span>
+                            <span class="bg-white/10 px-3 py-1.5 rounded-lg text-xs font-bold border border-white/5">NOC / SOC</span>
+                            <span class="bg-white/10 px-3 py-1.5 rounded-lg text-xs font-bold border border-white/5">Governance Call</span>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-slate-400 text-[10px] uppercase font-bold mb-3 tracking-widest">Toolbelt</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-blue-600 px-3 py-1.5 rounded-lg text-xs font-bold">ServiceNow</span>
+                            <span class="bg-blue-600 px-3 py-1.5 rounded-lg text-xs font-bold">Power BI</span>
+                            <span class="bg-blue-600 px-3 py-1.5 rounded-lg text-xs font-bold">Azure</span>
+                            <span class="bg-blue-600 px-3 py-1.5 rounded-lg text-xs font-bold">Dynatrace</span>
+                            <span class="bg-blue-600 px-3 py-1.5 rounded-lg text-xs font-bold">BMC Remedy</span>
+                            <span class="bg-blue-600 px-3 py-1.5 rounded-lg text-xs font-bold">MS O365</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Key Achievements List -->
+            <section class="bg-white p-8 rounded-3xl shadow-sm border border-slate-200">
+                <h3 class="text-slate-900 font-black uppercase text-sm mb-8 flex items-center gap-2">
+                    <i class="fa-solid fa-trophy text-yellow-500"></i> Career Highlights
+                </h3>
+                <div class="space-y-8">
+                    <div class="relative pl-6 before:absolute before:left-0 before:top-0 before:bottom-0 before:w-1 before:bg-blue-500">
+                        <p class="text-[10px] font-black text-blue-600 uppercase mb-1">Cost Savings</p>
+                        <h4 class="font-bold text-sm text-slate-900">$2.2 Million Savings</h4>
+                        <p class="text-xs text-slate-500 mt-1 italic">Led IBM DC Singapore closure & Azure migration.</p>
+                    </div>
+                    <div class="relative pl-6 before:absolute before:left-0 before:top-0 before:bottom-0 before:w-1 before:bg-green-500">
+                        <p class="text-[10px] font-black text-green-600 uppercase mb-1">Efficiency</p>
+                        <h4 class="font-bold text-sm text-slate-900">€40,000 Monthly ROI</h4>
+                        <p class="text-xs text-slate-500 mt-1 italic">Azure SKU optimization via Dynatrace.</p>
+                    </div>
+                    <div class="relative pl-6 before:absolute before:left-0 before:top-0 before:bottom-0 before:w-1 before:bg-orange-500">
+                        <p class="text-[10px] font-black text-orange-600 uppercase mb-1">Recognition</p>
+                        <h4 class="font-bold text-sm text-slate-900">Spotlight Award</h4>
+                        <p class="text-xs text-slate-500 mt-1 italic">For leadership in critical server migrations.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education & Info -->
+            <section class="space-y-6">
+                <div class="bg-slate-100 p-6 rounded-2xl border border-slate-200">
+                    <h3 class="font-black text-xs uppercase text-slate-500 mb-4 tracking-widest">Education</h3>
+                    <p class="font-bold text-slate-900 text-sm">Bachelor of Engineering (IT)</p>
+                    <p class="text-xs text-slate-500">RGPV University, Bhopal | 2010 - 2014</p>
+                </div>
+                
+                <div class="px-6 py-4 bg-white rounded-2xl border border-slate-200 shadow-sm">
+                    <h3 class="font-black text-[10px] uppercase text-slate-400 mb-3 tracking-widest">Additional Info</h3>
+                    <div class="grid grid-cols-2 gap-4 text-xs">
+                        <div>
+                            <p class="text-slate-400">Nationality</p>
+                            <p class="font-bold">Indian</p>
+                        </div>
+                        <div>
+                            <p class="text-slate-400">Language</p>
+                            <p class="font-bold">English, Hindi</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="bg-[#0f172a] text-slate-500 py-16 text-center text-xs border-t border-slate-800">
+        <div class="max-w-5xl mx-auto px-6">
+            <p class="mb-4">Designed for high-performance and ATS compatibility.</p>
+            <div class="flex justify-center gap-6 mb-8 text-lg">
+                <a href="https://linkedin.com/in/ayush-jain" target="_blank" class="hover:text-blue-500"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto:ayushraj.jain@gmail.com" class="hover:text-white"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <p>&copy; <script>document.write(new Date().getFullYear())</script> Ayush Jain. Professional Portfolio.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
